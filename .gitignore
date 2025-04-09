@@ -398,3 +398,7 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+/NC2025_MinimalAPI_NET9/App_Data/products.db-shm
+/NC2025_MinimalAPI_NET9/App_Data/products.db-wal
+/NC2025_MinimalAPI_NET8/App_Data/products.db-shm
+/NC2025_MinimalAPI_NET8/App_Data/products.db-wal
