@@ -3,9 +3,7 @@ using NC2025_MinimalAPI_NET8.Data;
 using NC2025_MinimalAPI_NET8.Endpoints;
 using NC2025_MinimalAPI_NET8.Repositories.Implementations;
 using NC2025_MinimalAPI_NET8.Repositories.Interfaces;
-using Microsoft.OpenApi.Models;
 using Scalar.AspNetCore;
-using Swashbuckle.AspNetCore.Swagger;
 
 var builder = WebApplication.CreateBuilder(args);
 

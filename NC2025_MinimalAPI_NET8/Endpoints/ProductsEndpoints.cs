@@ -24,7 +24,8 @@ namespace NC2025_MinimalAPI_NET8.Endpoints
             {
                 await repository.AddAsync(product);
                 return Results.Created($"/products/{product.Id}", product);
-            });
+            })
+                .WithParameterValidation();
 
             productsGroup.MapPut("/{id}", async (int id, Product product, IRepository<Product> repository) =>
             {

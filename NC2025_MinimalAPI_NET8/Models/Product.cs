@@ -1,4 +1,6 @@
-﻿namespace NC2025_MinimalAPI_NET8.Models
+﻿using System.Text.Json.Serialization;
+
+namespace NC2025_MinimalAPI_NET8.Models
 {
     public class Product
     {
@@ -11,6 +13,7 @@
 
 
         // Navigation property
-        public Category Category { get; set; } = null!;
+        [JsonIgnore]
+        public Category? Category { get; set; }
     }
 }

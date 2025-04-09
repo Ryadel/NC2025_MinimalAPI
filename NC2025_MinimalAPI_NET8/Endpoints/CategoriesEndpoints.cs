@@ -21,7 +21,8 @@ namespace NC2025_MinimalAPI_NET8.Endpoints
             {
                 await repository.AddAsync(category);
                 return Results.Created($"/categories/{category.Id}", category);
-            });
+            })
+                .WithParameterValidation();
         }
     }
 }

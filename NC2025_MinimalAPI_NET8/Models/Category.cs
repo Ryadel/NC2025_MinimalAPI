@@ -6,6 +6,6 @@
         public string Name { get; set; } = string.Empty;
 
         // One-to-Many relationship
-        public List<Product> Products { get; set; } = new();
+        public List<Product>? Products { get; set; }
     }
 }

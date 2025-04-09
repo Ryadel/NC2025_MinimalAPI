@@ -1,9 +1,15 @@
-﻿namespace NC2025_MinimalAPI_NET9.Models
+﻿using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
+
+namespace NC2025_MinimalAPI_NET9.Models
 {
     public class Product
     {
         public int Id { get; set; }
-        public string Name { get; set; } = string.Empty;
+
+        [Required]
+        public string Name { get; set; } = null!;
+
         public decimal Price { get; set; }
 
         // Foreign key
@@ -11,6 +17,7 @@
 
 
         // Navigation property
-        public Category Category { get; set; } = null!;
+        [JsonIgnore]
+        public Category? Category { get; set; }
     }
 }
