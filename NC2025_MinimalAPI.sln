@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NC2025_MinimalAPI_NET9", "NC2025_MinimalAPI_NET9\NC2025_MinimalAPI_NET9.csproj", "{2C913848-30C0-445C-8BFA-DEE18B44154E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NC2025_MinimalAPI_NET8", "NC2025_MinimalAPI_NET8\NC2025_MinimalAPI_NET8.csproj", "{C6D52EDF-4F62-43FF-9D8A-86F5367A8D2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C913848-30C0-445C-8BFA-DEE18B44154E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C913848-30C0-445C-8BFA-DEE18B44154E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C913848-30C0-445C-8BFA-DEE18B44154E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C913848-30C0-445C-8BFA-DEE18B44154E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6D52EDF-4F62-43FF-9D8A-86F5367A8D2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6D52EDF-4F62-43FF-9D8A-86F5367A8D2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6D52EDF-4F62-43FF-9D8A-86F5367A8D2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6D52EDF-4F62-43FF-9D8A-86F5367A8D2D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D0B642E-D8FA-4361-98B1-EE9B2E182EC3}
+	EndGlobalSection
+EndGlobal
