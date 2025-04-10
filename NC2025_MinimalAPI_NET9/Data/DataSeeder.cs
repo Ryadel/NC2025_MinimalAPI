@@ -1,11 +1,8 @@
 ﻿using Bogus;
-using Microsoft.EntityFrameworkCore;
 using NC2025_MinimalAPI_NET9.Models;
 
 namespace NC2025_MinimalAPI_NET9.Data
 {
-    // Data/DataSeeder.cs
-
     public static class DataSeeder
     {
         public static void Seed(ApplicationDbContext context)
