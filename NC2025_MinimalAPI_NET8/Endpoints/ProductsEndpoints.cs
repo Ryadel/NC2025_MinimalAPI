@@ -7,7 +7,9 @@ namespace NC2025_MinimalAPI_NET8.Endpoints
     {
         public static void MapProductsEndpoints(this WebApplication app)
         {
-            var productsGroup = app.MapGroup("/products");
+            var productsGroup = app
+                .MapGroup("/products")
+                .WithTags("Products");
 
             productsGroup.MapGet("/", async (IRepository<Product> repository) =>
             {

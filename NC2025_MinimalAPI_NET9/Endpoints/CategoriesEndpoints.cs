@@ -7,7 +7,9 @@ namespace NC2025_MinimalAPI_NET9.Endpoints
     {
         public static void MapCategoriesEndpoints(this WebApplication app)
         {
-            var categoriesGroup = app.MapGroup("/categories");
+            var categoriesGroup = app
+                .MapGroup("/categories")
+                .WithTags("Categories");
 
             categoriesGroup.MapGet("/", async (ICategoryRepository repository) =>
                 Results.Ok(await repository.GetAllAsync()));
